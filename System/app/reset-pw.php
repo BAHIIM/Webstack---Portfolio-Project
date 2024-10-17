@@ -16,7 +16,7 @@ require '../constants/uniques.php';
 	if ($rec == "0") {
 	    print '
 	 <div class="alert alert-warning">
-     No account is associated with email <strong>'.$opt.'</strong>
+     We couldnt find an account with that email address. Please check and try again <strong>'.$opt.'</strong>
 	 </div>
      ';
 		
@@ -41,7 +41,7 @@ require '../constants/uniques.php';
 	$stmt->bindParam(':token', $token);
     $stmt->execute();	
 
-	$message = "Hellow!! <b>$full_name</b>, <br>Click <a href='$actual_link'>HERE</a> to reset your <b>BwireJobs</b> password.";   
+	$message = "Hey There! <b>$full_name</b>, <br>Click <a href='$actual_link'>HERE</a> to reset your <b>Khdemti</b> password.";   
     require '../mail/PHPMailerAutoload.php';
 
     $mail = new PHPMailer;
@@ -67,13 +67,13 @@ require '../constants/uniques.php';
     if(!$mail->send()) {
     print '
 	 <div class="alert alert-danger">
-     An error occurred please contact us for more help.
+     Oops! Something went wrong. Please reach out to us if you need assistance.
 	 </div>
      ';
     } else {
     print '
 	 <div class="alert alert-info">
-     A link to reset your password was sent to '.$mymail.'.
+     We have sent you a link to reset your password. Please check your. '.$mymail.'.
 	 </div>
      ';
     }

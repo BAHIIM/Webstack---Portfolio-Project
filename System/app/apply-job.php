@@ -39,7 +39,7 @@ include '../constants/db_config.php';
 	
 	print '<br>
 	 <div class="alert alert-success">
-     You have successfully applied this job.
+     Your application has been successfully submitted! Good luck!
 	 </div>
      ';
 					  
@@ -54,7 +54,7 @@ include '../constants/db_config.php';
     {
 	 print '<br>
 	 <div class="alert alert-warning">
-     You have already applied this job before , you can not apply again.
+     It looks like you have already applied for this job. You cannot submit another application.
 	 </div>
      ';
 	}	
