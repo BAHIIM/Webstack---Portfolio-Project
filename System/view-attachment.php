@@ -24,6 +24,7 @@ $stmt->bindParam(':fileid', $file_id);
 $stmt->execute();
 $result = $stmt->fetchAll();
 
+/*store certificate and title*/
 foreach($result as $row)
 {
     $certificate = $row['attachment'];

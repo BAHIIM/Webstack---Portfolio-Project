@@ -25,6 +25,7 @@ $page1 = 0;
 $page = 1;	
 }
 
+/*category and country search*/
 if (isset($_GET['country']) && ($_GET['category']) ){
 $cate = $_GET['category'];
 $country = $_GET['country'];	
