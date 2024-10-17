@@ -59,7 +59,7 @@ header("location:../");
   <style>
   
     .autofit2 {
-	height:80px;
+	height:82px;
 	width:100px;
     object-fit:cover; 
   }
