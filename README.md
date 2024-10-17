@@ -10,6 +10,7 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
+- [Authors](#Authors)
 
 ## Project Overview
 
@@ -73,3 +74,9 @@ Contributions are welcome! If you'd like to contribute to Khdemti, please follow
 4. Commit your changes (`git commit -m 'Add some feature'`).
 5. Push to the branch (`git push origin feature-branch`).
 6. Open a pull request.
+
+## Authors
+- Khalid Benhamou
+- Abderrahim Oulmaamer
+- Amine Bifden
+- Zakaria Derkaoui
