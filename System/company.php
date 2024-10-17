@@ -7,6 +7,7 @@ require 'constants/db_config.php';
 
 if (isset($_GET['ref'])) {
 
+	/*get company id*/
 $company_id = $_GET['ref'];
 
 
@@ -26,6 +27,7 @@ $company_id = $_GET['ref'];
 	header("location:./");	
 	}else{
 
+    // get company details
     foreach($result as $row)
     {
 		
